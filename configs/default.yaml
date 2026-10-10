@@ -1,0 +1,18 @@
+# Default nested-evaluation settings.
+# Dataset-specific files override these values.
+# The primary router is validation-driven dynamic hard selection.
+
+dataset: null
+target: y
+horizon: 3
+outer_windows: 5
+inner_windows: 5
+window_types:
+  - expanding
+train_window: 60
+compute_budget: medium
+compute_weight: 0.10
+temperature: 1.0
+model_allowlist: null
+fast_model_config: false
+seed: 42

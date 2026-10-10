@@ -1,0 +1,3 @@
+dataset,config_name,seed,horizon,outer_origin,method,horizon_step,model,window_type,selected_expert,validation_loss,validation_mae,utility,runtime,notes
+airpassengers,airpassengers,42,3,1,dynamic_hard_router,,seasonal_naive,sliding,seasonal_naive__sliding,27.833333333333332,27.833333333333332,-0.1621908865847541,5.889602471143007e-05,Highest compute-aware utility on inner validation.
+airpassengers,airpassengers,42,3,2,dynamic_hard_router,,ets,expanding,ets__expanding,17.82486418741748,17.82486418741748,-0.06837060075811746,0.03531785402446985,Highest compute-aware utility on inner validation.

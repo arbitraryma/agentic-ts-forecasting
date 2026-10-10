@@ -1,0 +1,8 @@
+dataset,method,mean_validation_runtime,mean_outer_fit_seconds,n_outer_origins
+airpassengers,seasonal_naive__sliding,5.9083220548927784e-05,8.574948878958821e-05,2
+airpassengers,seasonal_naive__expanding,6.72812748234719e-05,0.0001381460460834,2
+airpassengers,dynamic_hard_router,0.026728593744337524,0.02006012503989038,2
+airpassengers,ets__sliding,0.03930421901168295,0.0376661460031755,2
+airpassengers,ets__expanding,0.04731541697401545,0.0390919795027002,2
+airpassengers,auto_arima__sliding,1.5622778752294835,1.3957252710242756,2
+airpassengers,auto_arima__expanding,5.854285062494455,2.4171114790369757,2

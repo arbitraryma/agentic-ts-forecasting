@@ -1,0 +1,2 @@
+n_outer_origins,selection_accuracy,mean_router_mae,mean_oracle_mae,mean_router_regret,median_router_regret,oracle_gap_pct
+5,0.2,13.195063947894756,8.558761765467272,4.636302182427483,4.52716270889179,54.170244592318795

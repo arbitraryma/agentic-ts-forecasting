@@ -1,0 +1,23 @@
+dataset: airpassengers
+target: '#Passengers'
+horizon: 3
+outer_windows: 2
+inner_windows: 2
+window_types:
+- expanding
+- sliding
+train_window: 60
+compute_budget: medium
+compute_weight: 0.1
+temperature: 1.0
+model_allowlist:
+- seasonal_naive
+- ets
+- auto_arima
+fast_model_config: true
+seed: 42
+config_name: airpassengers
+n_series: 1
+has_covariates: false
+known_seasonal_period: 12
+frequency: monthly

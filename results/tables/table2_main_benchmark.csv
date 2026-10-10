@@ -1,0 +1,8 @@
+dataset,method,method_type,mae,rmse,n_forecasts,n_outer_origins
+airpassengers,ets__expanding,fixed,38.04362152024428,52.02438518486022,6,2
+airpassengers,auto_arima__sliding,fixed,54.638459335233314,71.3771346234844,6,2
+airpassengers,dynamic_hard_router,router,57.516015421229575,76.50885110339127,6,2
+airpassengers,ets__sliding,fixed,57.54754561953973,74.28023240030947,6,2
+airpassengers,auto_arima__expanding,fixed,60.68502748617825,79.28044764688988,6,2
+airpassengers,seasonal_naive__expanding,fixed,69.33333333333333,80.67217612039482,6,2
+airpassengers,seasonal_naive__sliding,fixed,69.33333333333333,80.67217612039482,6,2

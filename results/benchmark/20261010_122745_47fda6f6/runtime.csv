@@ -1,0 +1,15 @@
+dataset,config_name,seed,horizon,outer_origin,method,model,window_type,selected_expert,validation_loss,validation_mae,validation_runtime,runtime,outer_fit_seconds
+airpassengers,airpassengers,42,3,1,auto_arima__expanding,auto_arima,expanding,auto_arima__expanding,23.952406325357998,23.952406325357998,2.7175126244546846,2.7175126244546846,2.5943196669686586
+airpassengers,airpassengers,42,3,1,auto_arima__sliding,auto_arima,sliding,auto_arima__sliding,55.04136426392185,55.04136426392185,2.100988812453579,2.100988812453579,1.3238996249856427
+airpassengers,airpassengers,42,3,1,ets__expanding,ets,expanding,ets__expanding,37.95864391693665,37.95864391693665,0.03908687556395307,0.03908687556395307,0.036841040942817926
+airpassengers,airpassengers,42,3,1,ets__sliding,ets,sliding,ets__sliding,44.805609525324414,44.805609525324414,0.032554270524997264,0.032554270524997264,0.033413708908483386
+airpassengers,airpassengers,42,3,1,seasonal_naive__expanding,seasonal_naive,expanding,seasonal_naive__expanding,27.833333333333332,27.833333333333332,8.591642836108804e-05,8.591642836108804e-05,0.00010100007057189941
+airpassengers,airpassengers,42,3,1,seasonal_naive__sliding,seasonal_naive,sliding,seasonal_naive__sliding,27.833333333333332,27.833333333333332,5.889602471143007e-05,5.889602471143007e-05,7.449998520314693e-05
+airpassengers,airpassengers,42,3,1,dynamic_hard_router,seasonal_naive,sliding,seasonal_naive__sliding,27.833333333333332,27.833333333333332,5.889602471143007e-05,5.889602471143007e-05,7.449998520314693e-05
+airpassengers,airpassengers,42,3,2,auto_arima__expanding,auto_arima,expanding,auto_arima__expanding,28.694091587865092,28.694091587865092,8.461301333096344,8.461301333096344,1.9108247079420835
+airpassengers,airpassengers,42,3,2,auto_arima__sliding,auto_arima,sliding,auto_arima__sliding,24.27087654637674,24.27087654637674,0.8655265619745478,0.8655265619745478,1.2268781670136377
+airpassengers,airpassengers,42,3,2,ets__expanding,ets,expanding,ets__expanding,17.82486418741748,17.82486418741748,0.03531785402446985,0.03531785402446985,0.035956124891527
+airpassengers,airpassengers,42,3,2,ets__sliding,ets,sliding,ets__sliding,35.78509179133894,35.78509179133894,0.036670771543867886,0.036670771543867886,0.0368467909283936
+airpassengers,airpassengers,42,3,2,seasonal_naive__expanding,seasonal_naive,expanding,seasonal_naive__expanding,57.66666666666667,57.66666666666667,6.07494730502367e-05,6.07494730502367e-05,0.00010220904368907213
+airpassengers,airpassengers,42,3,2,seasonal_naive__sliding,seasonal_naive,sliding,seasonal_naive__sliding,57.66666666666667,57.66666666666667,5.697901360690594e-05,5.697901360690594e-05,7.916695903986692e-05
+airpassengers,airpassengers,42,3,2,dynamic_hard_router,ets,expanding,ets__expanding,17.82486418741748,17.82486418741748,0.03531785402446985,0.03531785402446985,0.035956124891527

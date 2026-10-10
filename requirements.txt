@@ -1,0 +1,17 @@
+# Application layer.
+# Install this on top of the existing forecasting environment.
+# Do not use this file to upgrade torch, scipy, numpy, or pyarrow.
+
+fastapi
+uvicorn
+python-multipart
+langchain
+langchain-openai
+langgraph
+fastmcp
+openai
+pydantic
+pandas
+numpy
+python-dotenv
+pyyaml

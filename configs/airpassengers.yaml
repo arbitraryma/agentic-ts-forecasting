@@ -1,0 +1,19 @@
+# AirPassengers nested benchmark.
+# These values match the existing airpassengers benchmark settings.
+# fast_model_config is false for the paper run. Smoke scripts override it.
+
+dataset: airpassengers
+target: "#Passengers"
+horizon: 3
+outer_windows: 5
+inner_windows: 5
+window_types:
+  - expanding
+  - sliding
+train_window: 60
+compute_budget: medium
+compute_weight: 0.10
+temperature: 1.0
+model_allowlist: null
+fast_model_config: false
+seed: 42

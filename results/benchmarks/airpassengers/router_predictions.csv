@@ -1,0 +1,7 @@
+dataset,outer_origin,horizon,model,window_type,actual,prediction,error,abs_error,sq_error
+airpassengers,1,1,seasonal_naive,sliding,622.0,559.0,63.0,63.0,3969.0
+airpassengers,1,2,seasonal_naive,sliding,606.0,463.0,143.0,143.0,20449.0
+airpassengers,1,3,seasonal_naive,sliding,508.0,407.0,101.0,101.0,10201.0
+airpassengers,2,1,ets,expanding,461.0,451.46706008424667,9.532939915753332,9.532939915753332,90.87694343736314
+airpassengers,2,2,ets,expanding,390.0,405.66396481316934,-15.663964813169343,15.663964813169343,245.35979366820732
+airpassengers,2,3,ets,expanding,432.0,444.89918779845476,-12.899187798454761,12.899187798454761,166.38904585980418

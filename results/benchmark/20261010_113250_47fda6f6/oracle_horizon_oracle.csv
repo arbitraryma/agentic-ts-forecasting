@@ -1,0 +1,7 @@
+outer_origin,horizon_step,oracle_abs_error,oracle_experts,post_hoc,note
+1,1,63.0,seasonal_naive__expanding|seasonal_naive__sliding,True,Horizon-specific ex-post upper bound. Not a routing rule.
+1,2,83.17269405490299,ets__expanding,True,Horizon-specific ex-post upper bound. Not a routing rule.
+1,3,14.157227331359309,ets__expanding,True,Horizon-specific ex-post upper bound. Not a routing rule.
+2,1,2.094415289610538,ets__sliding,True,Horizon-specific ex-post upper bound. Not a routing rule.
+2,2,14.267630659011616,auto_arima__sliding,True,Horizon-specific ex-post upper bound. Not a routing rule.
+2,3,12.89918779845476,ets__expanding,True,Horizon-specific ex-post upper bound. Not a routing rule.

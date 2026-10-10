@@ -1,0 +1,8 @@
+dataset,config_name,seed,horizon,method,method_type,mae,rmse,n_forecasts,n_outer_origins,complete_coverage,validation_runtime,outer_fit_seconds
+airpassengers,airpassengers,42,3,ets__expanding,fixed,38.04362152024428,52.02438518486022,6,2,True,0.03955350024625659,0.03614954149816185
+airpassengers,airpassengers,42,3,auto_arima__sliding,fixed,54.638459335233314,71.3771346234844,6,2,True,1.5271617710241117,1.388502708519809
+airpassengers,airpassengers,42,3,dynamic_hard_router,router,57.516015421229575,76.50885110339127,6,2,True,0.017148166778497398,0.018237458483781666
+airpassengers,airpassengers,42,3,ets__sliding,fixed,57.54754561953973,74.28023240030947,6,2,True,0.03750762471463531,0.034309666545595974
+airpassengers,airpassengers,42,3,auto_arima__expanding,fixed,60.68502748617825,79.28044764688988,6,2,True,5.902033719030442,2.244801229040604
+airpassengers,airpassengers,42,3,seasonal_naive__expanding,fixed,69.33333333333333,80.67217612039482,6,2,True,8.120824350044131e-05,9.968754602596164e-05
+airpassengers,airpassengers,42,3,seasonal_naive__sliding,fixed,69.33333333333333,80.67217612039482,6,2,True,6.861478323116899e-05,7.604202255606651e-05

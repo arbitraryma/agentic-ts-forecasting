@@ -1,0 +1,2 @@
+router_method,router_mae,oracle_mae,router_regret,oracle_gap,selection_accuracy,n_outer_origins,horizon_oracle_mae,post_hoc,note
+dynamic_hard_router,57.516015421229575,38.04362152024428,19.472393900985296,19.47239390098529,0.5,2,31.598525855556534,True,Post-hoc diagnostic. The outer test was not available to the router.

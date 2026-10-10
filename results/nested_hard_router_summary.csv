@@ -1,0 +1,3 @@
+strategy,mae,rmse,n_forecasts
+dynamic_hard_router,13.195063947894756,16.503884317332385,15
+dynamic_horizon_hard_router,18.242131278239565,25.916757982216588,15

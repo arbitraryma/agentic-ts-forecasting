@@ -1,0 +1,5 @@
+dataset,status,frequency,n_obs,n_series,known_seasonal_period,target,has_covariates,description
+airpassengers,available,monthly,144.0,1.0,12,#Passengers,False,Monthly international airline passenger counts.
+etth1,planned,hourly,,7.0,24,OT,False,"Electricity transformer temperature, hourly. Loader is not implemented."
+electricity,planned,hourly,,,24,,False,Electricity consumption panel. Loader is not implemented.
+traffic,planned,hourly,,,24,,False,Traffic occupancy panel. Loader is not implemented.

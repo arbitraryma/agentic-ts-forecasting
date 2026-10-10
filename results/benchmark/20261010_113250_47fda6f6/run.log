@@ -1,0 +1,19 @@
+Benchmark
+dataset=airpassengers  horizon=3  outer=2  inner=2  seed=42
+fast_model_config=True
+
+                   method       mae      rmse  n_forecasts
+           ets__expanding 38.043622 52.024385            6
+      auto_arima__sliding 54.638459 71.377135            6
+      dynamic_hard_router 57.516015 76.508851            6
+             ets__sliding 57.547546 74.280232            6
+    auto_arima__expanding 60.685027 79.280448            6
+seasonal_naive__expanding 69.333333 80.672176            6
+  seasonal_naive__sliding 69.333333 80.672176            6
+
+Router selections
+ outer_origin         selected_expert  validation_loss   utility
+            1 seasonal_naive__sliding        27.833333 -0.162177
+            2          ets__expanding        17.824864 -0.073461
+
+Saved: results/benchmark/20261010_113250_47fda6f6

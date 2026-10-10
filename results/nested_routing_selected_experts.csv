@@ -1,0 +1,16 @@
+outer_origin,rank,model,window_type
+1,1,timesfm3,expanding
+1,2,ets,expanding
+1,3,chronos2,sliding
+2,1,ets,expanding
+2,2,timesfm3,expanding
+2,3,chronos2,expanding
+3,1,ets,expanding
+3,2,timesfm3,expanding
+3,3,ets,sliding
+4,1,timesfm3,expanding
+4,2,chronos2,expanding
+4,3,chronos2,sliding
+5,1,ets,expanding
+5,2,timesfm3,expanding
+5,3,chronos2,expanding

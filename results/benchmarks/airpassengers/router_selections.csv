@@ -1,0 +1,3 @@
+outer_origin,model,window_type,validation_mae,utility
+1,seasonal_naive,sliding,27.833333333333332,-0.24964609139432062
+2,ets,expanding,17.82486418741748,-0.18185825218679968

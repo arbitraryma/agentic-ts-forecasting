@@ -1,0 +1,2 @@
+dataset,router_mae,best_fixed_expert,best_fixed_mae,improvement_over_best_fixed_mae,strongest_foundation_model,strongest_foundation_mae,improvement_over_strongest_foundation_mae,n_datasets_in_this_row,note
+airpassengers,57.516015421229575,ets__expanding,38.04362152024428,-19.472393900985296,,,,1,Positive improvement means the router MAE is lower. One dataset is not a general result.
