@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "agentic-ts-forecasting": {
+        "command": "/path/to/python",
+        "args": [
+          "-m",
+          "mcp_server.server"
+        ],
+        "cwd": "/path/to/agentic-ts-forecasting"
+      }
+    }
+  }
